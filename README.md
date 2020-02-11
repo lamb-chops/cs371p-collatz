@@ -1,6 +1,6 @@
 # CS371p: Object-Oriented Programming Collatz Repo
 
-* Name: (your Full Name)
+* Name: (David Lambert)
 
 * EID: (your EID)
 
