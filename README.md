@@ -2,7 +2,7 @@
 
 * Name: (David Lambert)
 
-* EID: (your EID)
+* EID: (del892)
 
 * GitLab ID: (your GitLab ID)
 
