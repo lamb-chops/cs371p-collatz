@@ -4,7 +4,7 @@
 
 * EID: (del892)
 
-* GitLab ID: (your GitLab ID)
+* GitLab ID: (dlambert124)
 
 * HackerRank ID: (your HackerRank ID)
 
