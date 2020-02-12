@@ -15,6 +15,7 @@
 
 #include "Collatz.hpp"
 
+
 using namespace std;
 
 // -----------
@@ -40,19 +41,30 @@ TEST(CollatzFixture, read) {
 
 TEST(CollatzFixture, eval_1) {
     const int v = collatz_eval(1, 10);
-    ASSERT_EQ(v, 11);}
+    ASSERT_EQ(v, 20);}
 
 TEST(CollatzFixture, eval_2) {
     const int v = collatz_eval(100, 200);
-    ASSERT_EQ(v, 300);}
+    ASSERT_EQ(v, 125);}
 
 TEST(CollatzFixture, eval_3) {
     const int v = collatz_eval(201, 210);
-    ASSERT_EQ(v, 411);}
+    ASSERT_EQ(v, 89);}
 
 TEST(CollatzFixture, eval_4) {
     const int v = collatz_eval(900, 1000);
-    ASSERT_EQ(v, 1900);}
+    ASSERT_EQ(v, 174);}
+
+//corner and failure cases
+TEST(CollatzFixture, eval_5) {
+    const int v = collatz_eval(1, 1);
+    ASSERT_EQ(v, 1);}
+
+TEST(CollatzFixture, eval_6) {
+    const int v = collatz_eval(1, 2);
+    ASSERT_EQ(v, 2);}
+
+
 
 // -----
 // print
@@ -63,6 +75,13 @@ TEST(CollatzFixture, print) {
     collatz_print(w, 1, 10, 20);
     ASSERT_EQ(w.str(), "1 10 20\n");}
 
+TEST(CollatzFixture, print_1) {
+    ostringstream w;
+    collatz_print(w, 100, 200, 125);
+    ASSERT_EQ(w.str(), "100 200 125\n");}
+
+
+
 // -----
 // solve
 // -----
@@ -71,4 +90,10 @@ TEST(CollatzFixture, solve) {
     istringstream r("1 10\n100 200\n201 210\n900 1000\n");
     ostringstream w;
     collatz_solve(r, w);
-    ASSERT_EQ("1 10 11\n100 200 300\n201 210 411\n900 1000 1900\n", w.str());}
+    ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n", w.str());}
+
+TEST(CollatzFixture, solve_1) {
+    istringstream r("1 10\n");
+    ostringstream w;
+    collatz_solve(r, w);
+    ASSERT_EQ("1 10 20\n", w.str());}
