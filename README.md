@@ -6,14 +6,14 @@
 
 * GitLab ID: (dlambert124)
 
-* HackerRank ID: (your HackerRank ID)
+* HackerRank ID: (dlambert124)
 
 * Git SHA: (most recent Git SHA, final change to your repo will be adding this value)
 
 * GitLab Pipelines: (link to your GitLab CI Pipeline)
 
-* Estimated completion time: (estimated time in hours, int or float)
+* Estimated completion time: (6 hours)
 
-* Actual completion time: (actual time in hours, int or float)
+* Actual completion time: (13 hours)
 
-* Comments: (any additional comments you have)
+* Comments: (A day late, severely underestimated time it would take to complete. Will be starting the next project early)

@@ -1,0 +1,35 @@
+commit e8b217469404d53aecccc51b48e0a8bf36a053c9
+Author: David Lambert <dlambert124@utexas.edu>
+Date:   Wed Feb 12 01:24:30 2020 +0000
+
+    passed test cases with simple solution
+
+commit 10f7b8c8072552bf96201008a2c34270e680b9f4
+Author: David Lambert <dlambert124@utexas.edu>
+Date:   Wed Feb 12 01:23:35 2020 +0000
+
+    added test cases
+
+commit 99e9da4bb16e712bec029481a282efd3de35b2b1
+Author: David Lambert <dlambert124@utexas.edu>
+Date:   Tue Feb 11 18:41:51 2020 +0000
+
+    given test passed for step 5
+
+commit a2ead3a82e250937e1c1b9f1d7cd23efe541c7e6
+Author: dlambert124 <dlambert124@utexas.edu>
+Date:   Tue Feb 11 09:44:09 2020 -0600
+
+    working on pipeline
+
+commit 4d7440774d236e7891a48478bb7c6b497db0ac06
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Jan 28 20:26:24 2020 -0600
+
+    another commit
+
+commit 0d3d08fb36cb7797d4852ad40facd98be987c93d
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Tue Jan 28 20:25:23 2020 -0600
+
+    first commit
